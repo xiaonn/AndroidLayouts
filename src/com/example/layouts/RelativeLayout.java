@@ -5,6 +5,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**!
+ * 相对布局
+ * */
 public class RelativeLayout extends BaseLayout {
 
 	@Override

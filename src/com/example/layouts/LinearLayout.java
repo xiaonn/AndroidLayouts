@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**!
+ * 线性布局
+ * */
 public class LinearLayout extends BaseLayout {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

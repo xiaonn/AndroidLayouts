@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+/**!
+ * 表格布局
+ * */
 public class TableLayout extends BaseLayout {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

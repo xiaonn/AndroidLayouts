@@ -5,6 +5,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**!
+ * 框架布局
+ * */
 public class FrameLayout extends BaseLayout {
 
 	@Override

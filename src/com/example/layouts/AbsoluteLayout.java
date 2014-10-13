@@ -5,6 +5,9 @@ import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+/**!
+ * 绝对布局
+ * */
 public class AbsoluteLayout extends BaseLayout {
 
 	@Override

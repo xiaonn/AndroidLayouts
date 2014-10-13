@@ -5,6 +5,9 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
+/**!
+ * 建立一个基类，并实现按钮的点击事件
+ * */
 public class BaseLayout extends Activity {
 
 	@Override
