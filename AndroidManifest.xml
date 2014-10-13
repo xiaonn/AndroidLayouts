@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.layouts"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/main_title"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.layouts.MainActivity"
+            android:label="@string/main_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.layouts.FrameLayout"
+            android:label="@string/frame_title" >
+        </activity>
+        <activity
+            android:name="com.example.layouts.LinearLayout"
+            android:label="@string/linear_title" >
+        </activity>
+        <activity
+            android:name="com.example.layouts.RelativeLayout"
+            android:label="@string/relative_title" >
+        </activity>
+        <activity
+            android:name="com.example.layouts.TableLayout"
+            android:label="@string/table_title" >
+        </activity>
+        <activity
+            android:name="com.example.layouts.AbsoluteLayout"
+            android:label="@string/absolute_title" >
+        </activity>
+    </application>
+
+</manifest>
